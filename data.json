@@ -1,0 +1,29 @@
+{
+    "Thing 1": {
+        "name":"Gaming",
+        "likeness":"80% 👍",
+        "pic":"gamin-codm.jpg",
+        "Desc":"Gaming is one of my staple. I do it everyday. My likeness for it first started when I was 7 years old and first started using computer. At that time, we used to play online pirated or emulater games. One of my favourite at that time was Street Fighter. I loved it. Then as I grew up, I discovered more games and played them. At that time most games that I wanted to play, such as GTA Vice City, or Taken, they used to be available for consoles only and I didn't had any consoles at time so I used to buy pirated version of those games. It was like a hit or miss. Sometimes they worked, other times, they didn't. This is how my love games grew more, and now here I am playing or purchasing any games I want."
+    },
+    "Thing 2": {
+        "name":"Online Shoping",
+        "likeness":"60% 👍",
+        "pic":"shopin.jpg",
+        "Desc":"This is my new favourite thing. It only happenes when I have money and I am trying to save it. The rest is known. I impulsively buy things. I don't feel bad about it. It's also like a hit or miss. Somtimes, things turns out great for their price, and sometimes they are trash."
+
+    },
+    "Thing 3": {
+        "name":"Watching Laptop",
+        "likeness":"89% 👍",
+        "pic":"asus-baby.jpg",
+        "Desc":"A product of one my Favourite Habit, i.e Online Shoping. I actually wanted to buy another gaming laptop after years of use on my Lenovo. This laptop was something I could only dreamed off about, never ever imagined that I would be able to hold it and see it. This laptop is this year's new model. It came out like ealry January, so obviously prices were at peak. And also it wasn't avalaible in Canada either [nothing is]. So anyways, I wanted to buy another gainmg laptop from ASUS whihch Asus Rog Strix Scar 17 inches. "
+    },
+
+    "Thing 4": {
+        "name":"Binging",
+        "likeness":"94% 👍",
+        "pic":"bingee.gif",
+        "Desc":"Who doesn't binge? I think, this is everyone's staple now. By binge, I mean watching and eating with it. So anyway, I like it, makes eating more fun and also brighten up the mood. I know doing it too much can be bad for any human, so always try to not overdo it."
+    }
+
+}
