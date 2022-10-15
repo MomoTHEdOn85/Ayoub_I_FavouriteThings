@@ -1,0 +1,13 @@
+@import"./modules/reset.scss";
+@import"./modules/vars.scss";
+
+//mobile styles leads first
+@import"./modules/default.scss";
+
+//responsive style next
+@import"./modules/queries.scss";
+
+//then everyhting else
+@import"./modules/main.scss";
+@import"./modules/lightbox.scss";
+ 
