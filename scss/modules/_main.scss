@@ -1,0 +1,16 @@
+main {
+    h3, h5 {
+        padding: 0.5em;
+        font-weight: bold;
+        color: $prim-color;
+        font-size: 2em;
+    }
+}
+//desktop view
+@media screen and (min-width: 768px) {
+    main {
+        h3, h5 {
+            font-size: 5em;
+        }
+    }
+}

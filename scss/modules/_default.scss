@@ -1,1 +1,71 @@
-h1 { font: $main-font;}
+body {
+	background: linear-gradient(-45deg, #c3de11, #a0e862, #7cf6f8, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.2em;
+    line-height: 1.5em;
+    font-weight: lighter;
+    align-items: center;
+    text-align: center;
+    padding: 3em;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.fav-things {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+    padding-top: 3em;
+    padding-bottom: 4em;
+    align-items: center;
+}
+
+//desktop view
+@media screen and (min-width: 768px) {
+    body {
+        background: linear-gradient(-45deg, #c3de11, #a0e862, #7cf6f8, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+        height: 100vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: lighter;
+        letter-spacing: 0.2em;
+        line-height: 4em;
+        align-items: center;
+        text-align: center;
+        padding: 15em;
+        margin: 2em;
+    
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+    .fav-things {
+        padding-top: 5em;
+        padding-bottom: 6em;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        align-items: center;
+    }
+}

@@ -1,0 +1,95 @@
+.fav-thing {
+    align-items: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.ThingName {
+            
+    h1 {
+        background-color: rgb(255, 251, 0);
+        border: black;
+        border-radius: 1em;
+        width: 5em;
+        height: 5em;
+        text-align: center;
+        padding: 0.5em 0.5em;
+        font-size: 1em;
+        font-weight: 500;
+    }
+    h1 {
+        --clr: #386397;
+        --outline: 2px solid var(--clr);
+        color: var(--clr);
+        outline: var(--outline);
+        border: var(--outline);
+        outline-offset: -2px;
+        transition: outline-offset 200ms ease;
+      }
+      
+    h1:hover,
+    h1:focus {
+        outline: var(--outline);
+        outline-offset: 2px;
+        // because of normalize
+      }
+      
+    h1:hover {
+        background-color: rgb(243, 243, 243);
+        cursor: pointer;
+
+        
+    }
+}
+
+
+//desktop view
+@media screen and (min-width: 768px) {
+    .fav-thing {
+        align-items: center;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .temp-sec {
+        align-items: center;
+      
+        .ThingName {
+            
+            h1 {
+                background-color: rgb(255, 251, 0);
+                border: black;
+                border-radius: 1em;
+                width: 10em;
+                height: 3em;
+                text-align: center;
+                padding: 1em 1em;
+                font-size: $prim-size;
+            }
+            h1 {
+                --clr: #386397;
+                --outline: 2px solid var(--clr);
+                color: var(--clr);
+                outline: var(--outline);
+                border: var(--outline);
+                outline-offset: -2px;
+                transition: outline-offset 200ms ease;
+              }
+              
+            h1:hover,
+            h1:focus {
+                outline: var(--outline);
+                outline-offset: 2px;
+                // because of normalize
+              }
+              
+            h1:hover {
+                background-color: rgb(243, 243, 243);
+                cursor: pointer;
+
+                
+            }
+        }
+
+    }
+     
+}
+ 
